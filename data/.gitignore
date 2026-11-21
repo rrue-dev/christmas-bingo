@@ -1,0 +1,9 @@
+# Runtime SQLite database (and WAL/SHM side files)
+*.db
+*.db-shm
+*.db-wal
+backups/
+
+# Personal card sets (e.g. copyrighted movie stills for family use only)
+card-sets-private/*
+!card-sets-private/.gitkeep
